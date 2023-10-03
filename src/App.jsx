@@ -1,16 +1,15 @@
-import React from "react";
+import { useState } from "react";
 import "./App.css";
-import Sample from "./components/Function";
 import Bisection from "./components/Bisection";
+import Sample from "./components/Function";
 
 function App() {
   return (
-    <div className="App">
-      {/* Display Bisection component */}
-      <Bisection /><br /><br />
-      {/* Display Sample component */}
+    <>
+      <Bisection />
+      <h1>Numerical Project</h1>
       <Sample />
-    </div>
+    </>
   );
 }
 

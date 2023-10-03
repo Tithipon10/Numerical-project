@@ -140,6 +140,7 @@ const Sample =()=>{
                         <Form.Label>Input XR</Form.Label>
                         <input type="number" id="XR" onChange={inputXR} style={{width:"20%", margin:"0 auto"}} className="form-control"></input>
                     </Form.Group>
+                    <br/>
                     <Button variant="dark" onClick={calculateRoot}>
                         Calculate
                     </Button>
